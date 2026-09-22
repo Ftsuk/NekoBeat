@@ -8,6 +8,8 @@ The name comes from the catgirl in the icon: *Neko* (cat) + *Beat*.
 
 **Current version: 1.0.0**
 
+![NekoBeat main window](screenshots/main-window.png)
+
 ## Features
 
 ### Playback and sync
@@ -28,6 +30,8 @@ The name comes from the catgirl in the icon: *Neko* (cat) + *Beat*.
 
 ### Loops
 
+![Loop list](screenshots/loop-list.png)
+
 - Mark a range with the A/B buttons, then give it a title, tags, a loop collection and a note.
 - Double-click a loop card to play that range on repeat. Playback eases back to the A point through a safety ramp when it reaches B.
 - Filter and sort loops by collection, tag or keyword. A video can hold any number of loops.
@@ -38,6 +42,8 @@ The name comes from the catgirl in the icon: *Neko* (cat) + *Beat*.
 - Click or drag to seek. While dragging, only the picture follows the pointer and the device stays still; releasing eases the device to the position you released at and resumes sync.
 
 ### Axis control
+
+![Axis limits](screenshots/axis-limits.png)
 
 - **Axis limits** (`Settings › Axis limits…`): scales the travel of each axis and stores any number of profiles that can be imported and exported. With playback stopped, dragging a limit slider, or clicking the 0 % / 100 % handle, drives the device to that limit so the travel can be compared directly.
 - **Calibration and test** (`Settings › Axis calibration and test…`): sets the minimum, maximum, home position, inversion and script offset of each axis in raw values (0–9999), with three buttons that really drive 0 %, 100 % and the centre. Values can be edited without a device connected; the driving buttons are disabled while it is disconnected.
