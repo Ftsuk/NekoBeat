@@ -1,0 +1,3 @@
+// Windows executable icon. windres resolves the file name through the include
+// path that CMake adds for src/assets.
+1 ICON "NekoBeat.ico"

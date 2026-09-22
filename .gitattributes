@@ -1,0 +1,8 @@
+# Let Git normalise line endings in the repository (LF) and check them out
+# natively, so a Windows build and a Linux clone do not fight over CRLF.
+* text=auto
+
+# Binary assets must never be converted.
+*.ico binary
+*.png binary
+*.zip binary

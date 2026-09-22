@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>NekoBeat.png</file>
+        <file>NekoBeat.ico</file>
+    </qresource>
+</RCC>

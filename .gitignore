@@ -1,0 +1,8 @@
+/build*/
+/dist/
+/logs/
+/third_party/mpv/
+__pycache__/
+*.log
+*.user
+*.autosave
