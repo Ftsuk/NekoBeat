@@ -64,6 +64,8 @@ The name comes from the catgirl in the icon: *Neko* (cat) + *Beat*.
 
 ## Device support
 
+There is no built-in device list: NekoBeat speaks TCode v0.3 over a serial port, and once connected it asks the device which axes it has and only ever drives those. So the table below is about the connection, not the model — an SR6, OSR2, SR2, OSR6 or any other TCode device should work. It has only been tested on a generic SR6; if a firmware does not answer the `D0` / `D1` / `D2` axis query, NekoBeat falls back to the SR6 six-axis preset.
+
 | Connection | Status | Notes |
 | --- | --- | --- |
 | USB serial (wired) | Supported | Connect the device over USB. Once a port such as `USB-SERIAL CH340` appears in the system, select it and connect. |
